@@ -1,5 +1,6 @@
-val calculateDepth  = { total: Double , num: Double ->  total/num }
+val divideTreasure  = { total: Double , num: Double ->  total/num }
 
 fun main(){
-    calculateDepth(1000.0, 5.0)
+    var res = divideTreasure(1000.0, 5.0)
+    println(res)
 }
